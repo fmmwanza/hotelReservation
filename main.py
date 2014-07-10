@@ -51,7 +51,7 @@ def main(argv):
 		if len(argv) != 2:
 			sys.exit('run command line: python [name].py [inputTextFIle].txt')
 
-		inputFile = open(str(sys.argv[1]),'r')	#open input file
+		inputFile = open(str(argv[1]),'r')	#open input file
 		fileLine = inputFile.readline()	
 		if not fileLine :
 			sys.exit('Invalid input file')
@@ -66,4 +66,4 @@ def main(argv):
 		inputFile.close()
 		print cheapestHotel(hotel, inputArg)
 
-main(sys.argv)	# run 
+# main(sys.argv)	# run 

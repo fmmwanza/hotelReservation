@@ -1,6 +1,6 @@
 
 import unittest
-import main 
+import main
 
 from hotel import Hotel
 
@@ -8,6 +8,8 @@ class MyTeste(unittest.TestCase):
 	"""docstring for MyTeste"""
 	def setUp(self):
 		unittest.TestCase.setUp(self)
+		arg = ['main.py', 'input.txt']
+		main.main(arg)
 		self.inputData = "Regular: 20Mar2009(fri), 21Mar2009(sat), 22Mar2009(sun)"
 
 	def tearDown(self):
