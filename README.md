@@ -18,12 +18,15 @@ INPUT FORMAT:
 	customer_type: date1, date2, date3, ...
 OUTPUT FORMAT:
 	name_of_the_cheapest_hotel
+
 INPUT 1:
 
 Regular: 16Mar2009(mon), 17Mar2009(tues), 18Mar2009(wed)
+
 OUTPUT 1:
 
 Lakewood
+
 INPUT 2:
 
 Regular: 20Mar2009(fri), 21Mar2009(sat), 22Mar2009(sun)
@@ -31,6 +34,7 @@ Regular: 20Mar2009(fri), 21Mar2009(sat), 22Mar2009(sun)
 OUTPUT 2:
 
 Bridgewood
+
 INPUT 3:
 
 Rewards: 26Mar2009(thur), 27Mar2009(fri), 28Mar2009(sat)
